@@ -2,11 +2,19 @@
 This project uses machine learning to predict Falcon 9 booster landings based on SpaceX launch data. Key factors include launch site, payload mass, orbit type, and booster reusability. The model achieves 94.4% accuracy, helping improve rocket recovery and cost efficiency.
 
 
-🚀 SpaceX Falcon 9 Landing Prediction🚀
+🚀 SpaceX Falcon 9 Landing Prediction
 
  Project Overview
 
 This project explores historical SpaceX Falcon 9 launch data to determine if a booster will land successfully. Using machine learning, we analyze key factors like launch site, payload mass, orbit type, and booster reusability to make accurate predictions.
+
+📌 Key Questions Explored
+1. What is the overall success rate of Falcon 9 landings?
+2. Which launch sites have the highest success rate?
+3. Does payload mass affect the success of landings?
+4. How has the landing success rate changed over time?
+5. Are reused boosters more successful than new ones?
+6. Can machine learning predict Falcon 9 landing success?
 
 Goals
 
@@ -56,42 +64,16 @@ Target Outcome: Booster landing success or failure
 
 Model Performance
 
-Metric
 
-Score
+Accuracy: 94.4%
 
-Accuracy
+Precision: 100% (Success), 80% (Failure)
 
-94.4%
+Recall: 93% (Success), 100% (Failure)
 
-Precision
-
-100% (Success), 80% (Failure)
-
-Recall
-
-93% (Success), 100% (Failure)
-
-F1-Score
-
-0.96 (Success), 0.89 (Failure)
+F1-Score: 0.96 (Success), 0.89 (Failure)
 
 
-How to Use
-
-Clone the repository:
-
-git clone https://github.com/yourusername/SpaceX-Landing-Prediction.git
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run the Jupyter Notebook:
-
-jupyter notebook
-
-Explore and run the model in spacex_landing_prediction.ipynb
 
 
 Future Enhancements
