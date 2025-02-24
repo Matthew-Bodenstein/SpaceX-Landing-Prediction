@@ -6,17 +6,17 @@ This project leverages machine learning to predict the landing success of Falcon
 
 📊 Key Questions Explored
 
-What is the overall success rate of Falcon 9 landings?
+1. What is the overall success rate of Falcon 9 landings?
 
-Which launch sites have the highest success rate?
+2. Which launch sites have the highest success rate?
 
-Does payload mass affect the success of landings?
+3. Does payload mass affect the success of landings?
 
-How has the landing success rate changed over time?
+4. How has the landing success rate changed over time?
 
-Are reused boosters more successful than new ones?
+5. Are reused boosters more successful than new ones?
 
-Can machine learning predict Falcon 9 landing success?
+6. Can machine learning predict Falcon 9 landing success?
 
 🎯 Goals
 
